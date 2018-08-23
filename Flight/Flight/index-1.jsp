@@ -1,8 +1,11 @@
+//Main Flight Search Page
+
 <%@page import="java.util.Iterator"%>
 <%@page import="com.rohan.dao.DAOFactory"%>
 <%@page import="com.rohan.bean.master_airport"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+
 <%
 	ArrayList <master_airport> city_list;
 	master_airport src_city, dest_city;
@@ -13,12 +16,15 @@
 	src_itr = city_list.iterator();
 	dest_itr = city_list.iterator();
 %>
+
 <!DOCTYPE html>
 <head>
 <title>Index</title>
 </head>
 <body>
 <div>
+
+//Dropdown list for source cities
 <label>From</label>
 <select name="src_name">
 <option value="">-Select Category	-</option>
@@ -33,6 +39,7 @@
 </select>
 </div>
 
+//Dropdown list for destination cities
 <div>
 <label>To</label>
 <select name="dest_name">
