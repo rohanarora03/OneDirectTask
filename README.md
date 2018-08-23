@@ -13,3 +13,8 @@ MySQL is used as RDBMS and app is hosted on Apache Tomcat Server
 ### Softwares
 - Eclipse
 - MySQL Workbench
+
+### Screenshots
+![screenshot 94](https://user-images.githubusercontent.com/19434002/44511837-55f2fc80-a6d6-11e8-9fbd-918d19541499.png)
+
+![screenshot 95](https://user-images.githubusercontent.com/19434002/44511807-4a073a80-a6d6-11e8-9978-1285ddbf9a66.png)
